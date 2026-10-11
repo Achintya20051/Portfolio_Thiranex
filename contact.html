@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Achintya Srivastava about web development and project opportunities.">
+  <meta name="theme-color" content="#2457e6">
+  <title>Contact | Achintya Srivastava</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Achintya Srivastava home">AS<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="container page-content">
+    <section class="contact-layout" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h1 id="page-title">Contact me</h1>
+        <p class="intro">Have a question or want to discuss a project? Send a message using the form.</p>
+        <p class="form-note">All fields are required. Your browser will check that the details are valid before submission.</p>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-field">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-field">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required>
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button class="button" type="submit">Submit message</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        <p class="form-note">Demo form only: no message is sent to a server.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-year>2026</span> Achintya Srivastava</p>
+      <p>Built with semantic HTML and accessible design.</p>
+    </div>
+  </footer>
+</body>
+</html>
